@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+   <div class="heading" style="margin:auto;background-color: palevioletred; width:70%; text-align: center;border-radius: 20px;font-family: 'Poppins',sans-serif ;background-image: linear-gradient(to right,rgb(55, 161, 236),rgb(3, 67, 90));-webkit-background-clip:text;-webkit-text-fill-color: transparent;font: weight 400px;font-size: 1.5rem;padding-top: 90px;"><h2 >TO-DO APP</h2></div> 
+    <div class="wrapper" style="margin-bottom: 40px;" >
+      <div class="task-input"style="margin-bottom: 40px;"  >
+        <input type="text" placeholder="Add a new task" style="margin-bottom: 20px;">
+        <button class="add-btn" style=" border: none;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 13px;
+        padding: 7px 13px;
+        border-radius: 4px;
+        letter-spacing: 0.3px;
+       background: linear-gradient(rgb(55, 161, 236),rgb(4, 110, 148));
+      ">Save</button>
+        </div>
+      
+      
+      <div class="controls">
+        <div class="task-area-box" style="text-align: center;margin:auto;">
+         <h4 style="font-size: larger;background-image: linear-gradient(to right,rgb(55, 161, 236),rgb(4, 110, 148));-webkit-background-clip:text;-webkit-text-fill-color: transparent;font-family: 'Poppins',sans-serif ;">TASKS</h4>
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="completed">Completed </span>
+          <span id="pending">Pending </span>
+        </div>
+        </div>
+        
+    </div>
+
+    <ul class="task-box"></ul>
+  
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+        
